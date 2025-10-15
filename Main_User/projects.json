@@ -1,0 +1,86 @@
+[
+  {
+    "title": "HR / Intern Management System",
+    "description": "Role-based dashboards, onboarding/offboarding, Google Workspace automation, cron reminders. Stack: Next.js, Prisma, PostgreSQL, Node.js.",
+    "tags": [
+      "Next.js",
+      "Prisma",
+      "PostgreSQL",
+      "Google APIs",
+      "Cron"
+    ],
+    "link": "",
+    "year": 2025
+  },
+  {
+    "title": "Automated Security Policy Compliance Checker",
+    "description": "Dockerized agent/server. Nmap discovery and OpenSCAP scanning with tailored AC\u20112/AC\u20116 policies. React dashboard.",
+    "tags": [
+      "Docker",
+      "Nmap",
+      "OpenSCAP",
+      "React"
+    ],
+    "link": "",
+    "year": 2024
+  },
+  {
+    "title": "Digital Forensics Labs",
+    "description": "Windows images analysis with Autopsy, FTK Imager, registry hives, SQLite artifacts. Formal investigation reports.",
+    "tags": [
+      "Autopsy",
+      "FTK",
+      "Registry",
+      "SQLite"
+    ],
+    "link": "",
+    "year": 2024
+  },
+  {
+    "title": "FitnessPro",
+    "description": "Full\u2011stack fitness tracker prototype. React + Vite frontend, Node/Express API, Postgres DB.",
+    "tags": [
+      "React",
+      "Vite",
+      "Node",
+      "Postgres"
+    ],
+    "link": "",
+    "year": 2023
+  },
+  {
+    "title": "Raspberry Pi Network Infra",
+    "description": "Small\u2011office network services on Raspberry Pi. DHCP/DNS, monitoring, backups.",
+    "tags": [
+      "Raspberry Pi",
+      "Linux",
+      "Networking"
+    ],
+    "link": "",
+    "year": 2022
+  },
+
+  {
+  "title": "LetsDefend Monitoring",
+  "description": "Monitoring and triage in a simulated SOC to build blue-team skills.",
+  "tags": ["Monitoring","Blue Team","SOC"],
+  "link": "https://app.letsdefend.io/monitoring",
+  "year": 2025
+},
+{
+  "title": "TryHackMe: OWASP Top 10",
+  "description": "Hands-on labs covering common web application risks and mitigations.",
+  "tags": ["OWASP Top 10","Web Security"],
+  "link": "https://tryhackme.com/room/owasptop10",
+  "year": 2025
+},
+{
+  "title": "RapidMiner University Labs",
+  "description": "Basic data prep and analytics workflows to support reporting and investigations.",
+  "tags": ["RapidMiner","Analytics"],
+  "link": "",
+  "year": 2025
+}
+
+]
+

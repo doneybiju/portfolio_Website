@@ -13,7 +13,7 @@ if (menuBtn && navLinks) {
 
 async function loadProjects() {
   try {
-    const res = await fetch('./projects.json', {cache:'no-store'});
+    const res = await fetch('./Main_User/projects.json', {cache:'no-store'});
     if (!res.ok) return;
     const projects = await res.json();
     const grid = document.getElementById('projectGrid');
@@ -34,4 +34,21 @@ async function loadProjects() {
     console.warn('Failed to load projects.json', e);
   }
 }
+
+
+async function loadSkills() {
+  try {
+    const res = await fetch('./Main_User/skills.json', {cache:'no-store'});
+    if (!res.ok) return;
+    const skills = await res.json();
+    const box = document.getElementById('skillsChips');
+    if (!box) return;
+    box.innerHTML = skills.map(s => `<span>${s}</span>`).join('');
+  } catch(e) {
+    console.warn('Failed to load skills.json', e);
+  }
+}
+
 loadProjects();
+loadSkills();
+
