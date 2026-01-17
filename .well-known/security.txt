@@ -1,6 +1,0 @@
-# security.txt - see https://securitytxt.org/
-Contact: mailto:you@example.com
-Preferred-Languages: en
-Policy: https://YOUR-DOMAIN.example/policy
-Encryption: https://YOUR-DOMAIN.example/pgp.txt
-Acknowledgments: https://YOUR-DOMAIN.example/hall-of-fame
